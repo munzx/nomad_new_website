@@ -2,6 +2,10 @@
 	
 }
 
+.mobile-menu {
+	height: 95vh;
+}
+
 .menu-button {
 	padding: 10px;
 	cursor: pointer;

@@ -14,13 +14,13 @@
             <li><a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['partners']">PARTNERS</a></li>
         </ul>
     </div>
-    <h1 class=" text-2xl font-semibold text-center mt-12">#NOMADSARRIVE</h1>
-    <div class="flex justify-around p-6 mt-0">
+    <h1 class=" font-semibold text-center mt-12">#NOMADSARRIVE</h1>
+    <div class="flex justify-around p-8 pt-0 mt-0">
         <a href=""><fa-icon class="text-2xl" [icon]="faFacebook"></fa-icon></a>
         <a href=""><fa-icon class="text-2xl" [icon]="faTwitter"></fa-icon></a>
         <a href=""><fa-icon class="text-2xl" [icon]="faInstagram"></fa-icon></a>
         <a href=""><fa-icon class="text-2xl" [icon]="faLinkedin"></fa-icon></a>
-      </div>
+    </div>
     
     <h1 class="p-12 text-gray-500 text-center">© NOMAD 2020 <br> All Rights Reserved</h1>
 </div>
@@ -39,23 +39,25 @@
             <div class="bar"></div>
         </div>
     </div>
-    <div class="w-full h-screen flex flex-col items-center justify-center" *ngIf="status">
-        <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['']">HOME</a>
-        <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['about']">ABOUT</a>
-        <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['sectors']">SECTORS</a>
-        <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['press']">PRESS</a>
-        <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['signup']">SIGN UP</a>
-        <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['events']">EVENTS</a>
-        <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['contactus']">CONTACT US</a>
-        <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['partners']">PARTNERS</a>
-        <h1 class=" text-2xl font-semibold mt-12">#NOMADSARRIVE</h1>
-        <div class="flex justify-around p-8">
-            <a href=""><fa-icon class="text-2xl" [icon]="faFacebook"></fa-icon></a>
-            <a href=""><fa-icon class="text-2xl" [icon]="faTwitter"></fa-icon></a>
-            <a href=""><fa-icon class="text-2xl" [icon]="faInstagram"></fa-icon></a>
-            <a href=""><fa-icon class="text-2xl" [icon]="faLinkedin"></fa-icon></a>
-          </div>
-        
-        <h1 class="p-12 text-gray-500">© NOMAD 2020 <br> All Rights Reserved</h1>
+    <div class="overflow-auto mobile-menu p-0 pt-4 pb-4" *ngIf="status">
+        <div class="w-full flex flex-col items-center justify-center">
+            <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['']">HOME</a>
+            <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['about']">ABOUT</a>
+            <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['sectors']">SECTORS</a>
+            <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['press']">PRESS</a>
+            <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['signup']">SIGN UP</a>
+            <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['events']">EVENTS</a>
+            <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['contactus']">CONTACT US</a>
+            <a class="focus:outline-none text-gray-900 block leading-loose text-2xl tracking-wide hover:underline" routerLinkActive="nomad-icon" [routerLink]="['partners']">PARTNERS</a>
+            <h1 class=" text-2xl font-semibold mt-12">#NOMADSARRIVE</h1>
+            <div class="flex justify-around p-4 mt-0 w-full">
+                <a href=""><fa-icon class="text-2xl" [icon]="faFacebook"></fa-icon></a>
+                <a href=""><fa-icon class="text-2xl" [icon]="faTwitter"></fa-icon></a>
+                <a href=""><fa-icon class="text-2xl" [icon]="faInstagram"></fa-icon></a>
+                <a href=""><fa-icon class="text-2xl" [icon]="faLinkedin"></fa-icon></a>
+            </div>
+            
+            <h1 class="p-12 text-gray-500">© NOMAD 2020 <br> All Rights Reserved</h1>
+        </div>
     </div>
 </div>
