@@ -1,0 +1,32 @@
+.select-container {
+    display: inline-block;
+}
+
+.select-container::after {
+    z-index: -99;
+    position: relative;
+    margin-left: -2rem;
+    content: url(../../assets/images/arrrow-down.svg);
+    padding-right: 4px;
+    display: inline-block;
+    color: #000;
+    width: 2rem;
+    height: 2rem;
+}
+
+.purpose {
+    z-index: 99;
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-bottom: solid 0.4rem black;
+    border-radius: 0;
+    padding-right: 2rem;
+}
+
+textarea {
+    resize: none;
+}

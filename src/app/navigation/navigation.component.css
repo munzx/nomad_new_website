@@ -1,0 +1,50 @@
+.md-sidebar {
+	
+}
+
+.menu-button {
+	padding: 10px;
+	cursor: pointer;
+	-webkit-transition: .3s;
+	transition: .3s;
+	float: right;
+}
+
+.menu-button .bar:nth-of-type(1) {
+	margin-top: 0px;
+}
+.menu-button .bar:nth-of-type(3) {
+	margin-bottom: 0px;
+}
+
+.bar {
+	position: relative;
+	display: block;
+	width: 40px;
+	height: 4px;
+	margin: 11px auto;
+	background-color: #000;
+	border-radius: 10px;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+
+.cross .bar:nth-of-type(1) {
+	-webkit-transform: translateY(15px) rotate(-45deg);
+	-ms-transform: translateY(15px) rotate(-45deg);
+	transform: translateY(15px) rotate(-45deg);
+}
+.cross .bar:nth-of-type(2) {
+	opacity: 0;
+}
+.cross .bar:nth-of-type(3) {
+	-webkit-transform: translateY(-15px) rotate(45deg);
+	-ms-transform: translateY(-15px) rotate(45deg);
+	transform: translateY(-15px) rotate(45deg);
+}
+
+.nomad-icon::before {
+	content: url('../../assets/images/active-icon.png');
+    padding-right: 4px;
+	display: inline-block;
+}

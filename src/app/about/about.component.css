@@ -1,0 +1,14 @@
+.img-custom-size {
+    height: 30rem;
+    width: 100%;
+}
+
+.text-my-custom {
+    font-size: 6rem;
+    margin-top: 4rem;
+}
+
+.read-more {
+    border-bottom: 0.2rem solid #191F2C;
+    width: 7rem;
+}

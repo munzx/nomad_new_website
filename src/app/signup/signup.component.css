@@ -1,0 +1,149 @@
+.select-container {
+    display: inline-block;
+}
+
+.select-container::after {
+    z-index: -99;
+    position: relative;
+    margin-left: -2rem;
+    content: url(../../assets/images/arrrow-down.svg);
+    padding-right: 4px;
+    display: inline-block;
+    color: #000;
+    width: 2rem;
+    height: 2rem;
+}
+
+.purpose {
+    z-index: 99;
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-bottom: solid 0.4rem black;
+    border-radius: 0;
+    padding-right: 2rem;
+}
+
+.icon {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    background-size: 5rem 5rem;
+    border: solid 0.2rem #A0AEC0;
+    margin: 0.8rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all .5s ease-in-out;
+    z-index: 99;
+    background-size: 6rem 6rem;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    opacity: 0;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+
+.icon:hover {
+    background-color: rgba(51,51,51, 0.9);
+}
+
+.icon:hover > .text {
+    opacity: 1;
+}
+
+*:active {
+    outline: none;
+}
+
+
+input[type="checkbox"]:disabled:not(:checked) + * {
+    background-color: rgba(25,31,44, 0.9);
+}
+
+input[type=checkbox]:checked + .icon {
+    background-color: rgba(51,51,51, 0.9)
+}
+
+input[type=checkbox]:checked + .icon > .text {
+    opacity: 1;
+}
+
+
+.media-icon {
+    background-image: url(../../assets/images/media-icon.png);
+}
+
+.arts-and-design-icon {
+    background-image: url(../../assets/images/arts-design-icon.png);
+}
+
+.culinary-icon {
+    background-image: url(../../assets/images/culinary-icon.png);
+}
+
+.tech-icon {
+    background-image: url(../../assets/images/tech-icon.png);
+}
+
+.gaming-icon {
+    background-image: url(../../assets/images/gaming-icon.png);
+}
+
+.enterperenership-icon {
+    background-image: url(../../assets/images/entrepreneurship-icon.png);
+}
+
+.co-housing-icon {
+    background-image: url(../../assets/images/cohousing-icon.png);
+}
+
+
+
+
+
+@media only screen and (max-width: 735px) {
+    /* For desktop: */
+    .text {
+        opacity: 1;
+        color: rgba(51,51,51, 1);
+        font-weight: 900;
+    }
+
+    .icon {
+        background-color: rgba(51,51,51, 0.3);
+    }
+
+
+
+    input[type=checkbox]:checked + .icon {
+        background-color: rgba(51,51,51, 0.9);
+    }
+    
+    input[type=checkbox]:checked + .icon > .text {
+        color:#ffffff;
+    }
+
+}

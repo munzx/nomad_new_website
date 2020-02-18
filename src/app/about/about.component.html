@@ -1,0 +1,21 @@
+<div class="flex flex-wrap pl-4 md:h-screen mt-4">
+    <div class="w-1/1 md:w-1/2 xl:w-2/5">
+        <div class="relative">
+            <div class=" absolute">
+                <h1 class="block font-bold leading-none text-my-custom tracking-wide">about us</h1>
+            </div>
+        </div>
+        <div class="pt-32">
+            <img class="img-custom-size inset-0 object-cover object-left-top" src="../../assets/images/nomad-hq.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="w-1/1 md:w-1/2 xl:w-2/5 flex flex-col justify-center p-8">
+        <p class="text-2xl text-gray-700 leading-relaxed tracking-wide">NOMAD is the first prototype of its kind in the world to serve as an integrated development with combined centres of excellence for entrepreneurship, media, culinary arts, makerspace, gaming and technology.</p>
+        
+        <a [routerLink]="['/about/details']" class="read-more mt-8 text-gray-900 font-semibold block">Read More <fa-icon class="pl-2" [icon]="faArrowRight"></fa-icon></a>
+        <div class="flex flex-row justify-end">
+            <img class="h-auto w-64 object-cover object-fill inset-0 mt-8" src="../../assets/images/mask.jpg" />
+        </div>
+    </div>
+</div>

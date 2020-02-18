@@ -1,0 +1,98 @@
+<h1 class="mt-20 md:mt-0 pl-4">
+    <span class="text-5xl md:text-6xl text-gray-400 font-bold">SECTORS</span> 
+    &nbsp;<br class="inline-block md:hidden"/>
+    <span class="text-2xl md:text-4xl leading-relaxed tracking-wider align-center font-semibold text-gray-900">Take a look around our sectors</span>
+</h1>
+
+<!-- Desktop -->
+<div class="hidden md:flex flex-wrap p-0 mt-4">
+    <div class="w-2/4 sm:w-1/1">
+        <div [routerLink]="['/sectors/details', 'MEDIA']" class="img-container w-1/1">
+            <img class="h-max-height inset-0 object-cover object-center" src="../../assets/images/media-banner.jpg" alt="">
+            <div class="overlay">
+                <div class="text">MEDIA</div>
+            </div>
+        </div>
+
+        <div [routerLink]="['/sectors/details', 'MAKERSPACE']" class="img-container w-1/2 inline-flex">
+            <img class="h-max-height inset-0 object-cover object-center" src="../../assets/images/maker.png" alt="">
+            <div class="overlay">
+                <div class="text">MAKERSPACE</div>
+            </div>
+        </div>
+        <div [routerLink]="['/sectors/details', 'GAMING & TECH']" class="img-container w-1/2 inline-flex">
+            <img class="h-max-height inset-0 object-cover object-center" src="../../assets/images/gaming.png" alt="">
+            <div class="overlay">
+                <div class="text">GAMING & TECH</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-1/4">
+        <div [routerLink]="['/sectors/details', 'CULINARY ARTS']" class="img-container">
+            <img class="h-max-height-one-col inset-0 object-cover object-top" src="../../assets/images/culainry.png" alt="">
+            <div class="overlay">
+                <div class="text">CULINARY ARTS</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-1/4">
+        <div class="flex flex-col">
+            <div [routerLink]="['/sectors/details', 'CO-LIVING']" class="img-container">
+                <img class="h-max-height inset-0 object-cover object-center" src="../../assets/images/coworking.png" alt="">
+                <div class="overlay">
+                    <div class="text">CO-LIVING</div>
+                </div>
+            </div>
+            <div [routerLink]="['/sectors/details', 'COWORKING']" class="img-container">
+                <img class="h-max-height inset-0 object-cover object-center" src="../../assets/images/Coliving.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">COWORKING</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Desktop -->
+
+
+<!-- Mobile -->
+<div class="w-full block md:hidden mt-4">
+    <div [routerLink]="['/sectors/details', 'MEDIA']" class="img-container">
+        <img class="w-full square inset-0 object-cover object-top" src="../../assets/images/media-banner.jpg" alt="">
+        <div class="overlay-mobile">
+            <div class="text-mobile">MEDIA</div>
+        </div>
+    </div>
+    <div [routerLink]="['/sectors/details', 'MAKERSPACE']" class="img-container">
+        <img class="w-full square inset-0 object-cover object-top" src="../../assets/images/maker.png" alt="">
+        <div class="overlay-mobile">
+            <div class="text-mobile">MAKERSPACE</div>
+        </div>
+    </div>
+    <div [routerLink]="['/sectors/details', 'GAMING & TECH']" class="img-container">
+        <img class="w-full square inset-0 object-cover object-top" src="../../assets/images/gaming.png" alt="">
+        <div class="overlay-mobile">
+            <div class="text-mobile">GAMING & TECH</div>
+        </div>
+    </div>
+    <div [routerLink]="['/sectors/details', 'CULINARY ARTS']" class="img-container">
+        <img class="w-full square inset-0 object-cover object-top" src="../../assets/images/culainry.png" alt="">
+        <div class="overlay-mobile">
+            <div class="text-mobile">CULINARY ARTS</div>
+        </div>
+    </div>
+    <div [routerLink]="['/sectors/details', 'CO-LIVING']" class="img-container">
+        <img class="w-full square inset-0 object-cover object-top" src="../../assets/images/coworking.png" alt="">
+        <div class="overlay-mobile">
+            <div class="text-mobile">CO-LIVING</div>
+        </div>
+    </div>
+    <div [routerLink]="['/sectors/details', 'COWORKING']" class="img-container">
+        <img class="w-full square inset-0 object-cover object-top" src="../../assets/images/Coliving.jpg" alt="">
+        <div class="overlay-mobile">
+            <div class="text-mobile">COWORKING</div>
+        </div>
+    </div>
+</div>
