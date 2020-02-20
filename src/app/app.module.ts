@@ -20,6 +20,8 @@ import { DetailsComponent as AboutDetailsComponent } from './about/details/detai
 import { DetailsComponent as SectorsDetailsComponent} from './sectors/details/details.component';
 import { DetailsComponent as PressDetailsComponent} from './press/details/details.component';
 import { DetailsComponent as EventsDetailsComponent} from './events/details/details.component';
+import { ProgramsComponent } from './programs/programs.component';
+import { NomadVideoComponent } from './nomad-video/nomad-video.component';
 
 
 @NgModule({
@@ -38,7 +40,9 @@ import { DetailsComponent as EventsDetailsComponent} from './events/details/deta
     AboutDetailsComponent,
     SectorsDetailsComponent,
     PressDetailsComponent,
-    EventsDetailsComponent
+    EventsDetailsComponent,
+    ProgramsComponent,
+    NomadVideoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,19 @@
 <h1 class="uppercase text-5xl md:text-6xl text-gray-400 pl-4 font-bold mt-20 md:mt-0">MEDIA</h1>
 <img class="img object-cover object-center inset-0 w-full mt-4" src="../../../assets/images/media-banner.jpg">
-    <p class=" text-2xl text-gray-900 p-8"> State-of-the-art recording studios and video production facilities for musicians, content creators and digital influencers.
-</p>
+<div class="p-8">
+    <p class="text-2xl text-gray-900">
+        State-of-the-art recording studios and video production facilities for musicians, content creators and digital influencers.
+    </p>
+    <div class="flex flex-wrap mt-4">
+        <div class="w-1/3 pr-2">
+            <button class="bg-gray-900 text-white font-semibold p-4 w-full">MUSIC FACILITIES</button>
+        </div>
+        <div class="w-1/3 pr-2">
+            <button class="bg-gray-900 text-white font-semibold p-4 w-full">MUSIC BOOTCAMP PROGRAMS</button>
+        </div>
+    </div>
+</div>
+
 <div class="w-full pr-4">
     <a class="block text-right font-semibold" [routerLink]="['/sectors']">
         <fa-icon class="pl-2" [icon]="faArrowLeft"></fa-icon> Back 

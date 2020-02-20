@@ -13,6 +13,7 @@ import { EventsComponent } from './events/events.component';
 import { PressComponent } from './press/press.component';
 import { PartnersComponent } from './partners/partners.component';
 import { CommunityComponent } from './community/community.component';
+import { ProgramsComponent } from './programs/programs.component';
 
 
 const routes: Routes = [
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path: "about/details", component: AboutDetailsComponent},
   {path: "sectors", component: SectorsComponent},
   {path: "sectors/details/:sector", component: SectorsDetailsComponent},
+  {path: "programs", component: ProgramsComponent},
   {path: "community", component: CommunityComponent},
   {path: "signup", component: SignupComponent},
   {path: "contactus", component: ContactusComponent},
