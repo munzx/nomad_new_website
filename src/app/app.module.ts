@@ -22,6 +22,8 @@ import { DetailsComponent as PressDetailsComponent} from './press/details/detail
 import { DetailsComponent as EventsDetailsComponent} from './events/details/details.component';
 import { ProgramsComponent } from './programs/programs.component';
 import { NomadVideoComponent } from './nomad-video/nomad-video.component';
+import {YouTubePlayerModule} from '@angular/youtube-player';
+
 
 
 @NgModule({
@@ -48,7 +50,8 @@ import { NomadVideoComponent } from './nomad-video/nomad-video.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

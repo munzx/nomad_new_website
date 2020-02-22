@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "nomad"
+    }
+  },
+  "defaultProject": "nomad",
+  "cli": {
+    "analytics": false
+  }
 }

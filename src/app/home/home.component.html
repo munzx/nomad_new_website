@@ -1,13 +1,8 @@
-<div class="hidden lg:flex">
-    <div class="w-1/2">
-        <div class="img-container">
-            <div class="overlay_video">
-                <fa-icon  class="pl-4 pr-4 text-white text-6xl bg-black rounded-full border-2" [icon]="faPlayCircle"></fa-icon>
-            </div>
-            <app-nomad-video class="h-screen w-full"></app-nomad-video>
-        </div>
+<div class="flex flex-wrap">
+    <div class="w-full md:w-1/2">
+        <app-nomad-video class="h-screen w-full"></app-nomad-video>
     </div>
-    <div class="w-1/2">
+    <div class="w-full md:w-1/2">
         <div class="img-container">
             <div class="overlay"></div>
             <div class="overlay_green"></div>
@@ -15,31 +10,7 @@
                 <img src="../../assets/images/munsic_bootcamp_logo_white.png" />
                 <p class="pl-2  mt-2 md:text-2xl tracking-wide leading-tight text-white">A platform for global talent and the creative community to collaborate and fuel innovation</p>
             </div>
-            <img class="h-screen w-full object-cover object-center" src="../../assets/images/home_bg.jpeg" alt="">
-        </div>
-    </div>
-</div>
-
-<div class="flex flex-wrap lg:hidden mt-8 sm:mt-0">
-    <div class="w-full">
-        <div class="mobile-img-container">
-            <div class="overlay"></div>
-            <div class="overlay_green"></div>
-            <div class="text">
-                <img src="../../assets/images/munsic_bootcamp_logo_white.png" />
-                <p class="pl-2  mt-2 md:text-2xl tracking-wide leading-tight text-white">A platform for global talent and the creative community to collaborate and fuel innovation</p>
-            </div>
-            <img class="h-screen w-full object-cover object-center" src="../../assets/images/home_bg.jpeg" alt="">
-        </div>
-    </div>
-    <div class="w-full">
-        <div class="mobile-img-container">
-            <div class="overlay_video">
-                <fa-icon  class="pl-4 pr-4 text-white text-6xl bg-black rounded-full border-2" [icon]="faPlayCircle"></fa-icon>
-            </div>
-            <app-nomad-video></app-nomad-video>
-            <!-- <iframe [src]="safeSrc" class="h-64 w-full" frameborder="0" webkitallowfullscreen mozallowfullscreen
-            allowfullscreen></iframe> -->
+            <img class="h-full md:h-screen w-full object-cover object-center" src="../../assets/images/home_bg.jpeg" alt="">
         </div>
     </div>
 </div>

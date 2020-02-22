@@ -1,1 +1,6 @@
-<div frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen #ytPlayer id="ytPlayer"></div>
+<div class="img-container">
+    <div class="overlay_video" (click)="startVideo()" >
+        <fa-icon *ngIf="!videoIsPlaying" class="pl-4 pr-4 text-white text-6xl bg-black rounded-full border-2" [icon]="faPlayCircle"></fa-icon>
+    </div>
+    <youtube-player #player height="100%" width="100%" videoId="hdTFc39GlK8"></youtube-player>
+</div>
