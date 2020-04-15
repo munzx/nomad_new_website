@@ -23,6 +23,7 @@ import { DetailsComponent as EventsDetailsComponent} from './events/details/deta
 import { ProgramsComponent } from './programs/programs.component';
 import { NomadVideoComponent } from './nomad-video/nomad-video.component';
 import {YouTubePlayerModule} from '@angular/youtube-player';
+import { CampaignComponent } from './campaign/campaign.component';
 
 
 
@@ -44,7 +45,8 @@ import {YouTubePlayerModule} from '@angular/youtube-player';
     PressDetailsComponent,
     EventsDetailsComponent,
     ProgramsComponent,
-    NomadVideoComponent
+    NomadVideoComponent,
+    CampaignComponent
   ],
   imports: [
     BrowserModule,
