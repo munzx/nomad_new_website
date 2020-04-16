@@ -14,6 +14,7 @@ import { PressComponent } from './press/press.component';
 import { PartnersComponent } from './partners/partners.component';
 import { CommunityComponent } from './community/community.component';
 import { ProgramsComponent } from './programs/programs.component';
+import { CampaignComponent } from './campaign/campaign.component';
 
 
 const routes: Routes = [
@@ -31,6 +32,7 @@ const routes: Routes = [
   {path: "press", component: PressComponent},
   {path: "press/details/:article", component: PressDetailsComponent},
   {path: "partners", component: PartnersComponent},
+  {path: "campaign", component: CampaignComponent},
   {path: "**", redirectTo: ""}
 ];
 
